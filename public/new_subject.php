@@ -1,6 +1,7 @@
 <?php require_once("../includes/session.php"); ?>
 <?php require_once("../includes/db/db_connection.php"); ?>
 <?php require_once("../includes/functions.php"); ?>
+<?php $layout_context = "admin"; ?>
 <?php include("../includes/layouts/header.php"); ?>
 
 <?php find_selected_page(); ?>
@@ -21,7 +22,7 @@
             <p>Position:
             <select name="position">
                 <?php
-                $page_count=mysqli_num_rows(find_all_subjects());
+                $page_count=mysqli_num_rows(find_all_subjects(false));
                 for($count=1; $count <=($page_count+1); $count ++){
                     echo "<option value=\"$count\">$count</option>";
                 }

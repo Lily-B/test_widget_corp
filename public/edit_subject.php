@@ -46,7 +46,7 @@ if(isset($_POST['submit'])) {
 }
 ?>
 
-
+<?php $layout_context = "admin"; ?>
 <?php include("../includes/layouts/header.php"); ?>
 
 <div id="main" xmlns="http://www.w3.org/1999/html">
@@ -66,7 +66,7 @@ if(isset($_POST['submit'])) {
             <p>Position:
                 <select name="position">
                     <?php
-                    $subject_count=mysqli_num_rows(find_all_subjects());
+                    $subject_count=mysqli_num_rows(find_all_subjects(false));
                     for($count=1; $count <=$subject_count; $count ++){
                         echo "<option value=\"$count\" ";
                         if ($count == $current_subject["position"]) {

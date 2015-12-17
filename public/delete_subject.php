@@ -7,7 +7,7 @@
     if (!$current_subject) {
         redirect_to("manage_content.php"); }
 
-    $page_set = select_pages_for_subject($current_subject["id"]);
+    $page_set = select_pages_for_subject($current_subject["id"], false);
     if (mysqli_num_rows($page_set) >0){
         $_SESSION["message"] = "Can't delete subjects with pages.";
         redirect_to("manage_content.php?subject={$current_subject['id']}");

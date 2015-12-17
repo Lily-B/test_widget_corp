@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a3c4991-acf6-4541-8706-0725596571bd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/create_page.php" afterPath="" />
+    <list default="true" id="6a3c4991-acf6-4541-8706-0725596571bd" name="Default" comment="Makes difference between public and admin area&#10;Adds different behavior for navigation and title.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/functions.php" afterPath="$PROJECT_DIR$/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/layouts/header.php" afterPath="$PROJECT_DIR$/includes/layouts/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/admin.php" afterPath="$PROJECT_DIR$/public/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/delete_page.php" afterPath="$PROJECT_DIR$/public/delete_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/delete_subject.php" afterPath="$PROJECT_DIR$/public/delete_subject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/edit_page.php" afterPath="$PROJECT_DIR$/public/edit_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/edit_subject.php" afterPath="$PROJECT_DIR$/public/edit_subject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/manage_content.php" afterPath="$PROJECT_DIR$/public/manage_content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/new_page.php" afterPath="$PROJECT_DIR$/public/new_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/new_subject.php" afterPath="$PROJECT_DIR$/public/new_subject.php" />
     </list>
+    <list id="65c48254-4c5e-4c54-bd40-4afb07d80687" name="changes in layouts" comment="" />
     <ignored path="test_widget_corp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,92 +31,44 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="test_widget_corp" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="delete_subject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/delete_subject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-              <folding>
-                <marker date="1449582039546" expanded="true" signature="621:631" placeholder="UPDATE subje..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_subject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/new_subject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
-              <folding>
-                <marker date="1449824789660" expanded="true" signature="495:552" placeholder="..." />
-                <marker date="1449824789660" expanded="true" signature="603:638" placeholder="..." />
-                <marker date="1449824789660" expanded="true" signature="735:770" placeholder="..." />
-                <marker date="1449824789660" expanded="true" signature="1100:1137" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_subject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/create_subject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
-              <folding>
-                <marker date="1449570973025" expanded="true" signature="785:807" placeholder="INSERT INTO subjects..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/edit_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6441442">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <marker date="1449828561655" expanded="true" signature="904:920" placeholder="UPDATE pages..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/delete_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <marker date="1449831813443" expanded="true" signature="609:626" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/new_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-              <folding>
-                <marker date="1449836323276" expanded="true" signature="986:1005" placeholder="INSERT INTO pages..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="manage_content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/manage_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state vertical-scroll-proportion="-3.6607144">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.64285713">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9285715">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -113,18 +77,39 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+            <state vertical-scroll-proportion="-3.267857">
+              <caret line="198" column="36" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="36" />
               <folding>
                 <element signature="n#redirect_to#0;n#!!top" expanded="false" />
                 <element signature="n#confirm_query#0;n#!!top" expanded="false" />
                 <element signature="n#mysql_prep#0;n#!!top" expanded="false" />
-                <element signature="n#find_all_subjects#0;n#!!top" expanded="false" />
                 <element signature="n#find_subject_by_id#0;n#!!top" expanded="false" />
                 <element signature="n#find_page_by_id#0;n#!!top" expanded="false" />
                 <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
-                <element signature="n#navigation#0;n#!!top" expanded="false" />
-                <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_subject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/edit_subject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.5555553">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <folding>
+                <marker date="1450342996465" expanded="true" signature="849:868" placeholder="UPDATE subje..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/new_page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35579515">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <marker date="1450341257538" expanded="true" signature="1022:1041" placeholder="INSERT INTO pages..." />
               </folding>
             </state>
           </provider>
@@ -157,29 +142,35 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lily B" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
-        <option value="$PROJECT_DIR$/public/admin.php" />
         <option value="$PROJECT_DIR$/includes/db/db_connection.php" />
         <option value="$PROJECT_DIR$/public/create_subject.php" />
         <option value="$PROJECT_DIR$/includes/session.php" />
         <option value="$PROJECT_DIR$/includes/validation_functions.php" />
-        <option value="$PROJECT_DIR$/public/new_subject.php" />
-        <option value="$PROJECT_DIR$/public/delete_subject.php" />
         <option value="$PROJECT_DIR$/includes/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/public/stylesheets/public.css" />
+        <option value="$PROJECT_DIR$/public/admin.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/new_page.php" />
+        <option value="$PROJECT_DIR$/public/manage_content.php" />
+        <option value="$PROJECT_DIR$/includes/functions.php" />
+        <option value="$PROJECT_DIR$/public/new_subject.php" />
         <option value="$PROJECT_DIR$/public/edit_subject.php" />
         <option value="$PROJECT_DIR$/public/edit_page.php" />
+        <option value="$PROJECT_DIR$/public/delete_subject.php" />
+        <option value="$PROJECT_DIR$/includes/layouts/header.php" />
         <option value="$PROJECT_DIR$/public/delete_page.php" />
-        <option value="$PROJECT_DIR$/public/stylesheets/public.css" />
-        <option value="$PROJECT_DIR$/public/new_page.php" />
-        <option value="$PROJECT_DIR$/includes/functions.php" />
-        <option value="$PROJECT_DIR$/public/manage_content.php" />
       </list>
     </option>
   </component>
@@ -193,10 +184,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="464" />
+    <option name="y" value="124" />
+    <option name="width" value="896" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -223,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -255,10 +247,31 @@
               <option name="myItemId" value="test_widget_corp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_widget_corp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_widget_corp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +279,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php" />
-    <property name="SearchEverywhereHistoryKey" value="affe&#9;null&#9;null&#10;affected&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="select_pages&#9;null&#9;null&#10;affe&#9;null&#9;null&#10;affected&#9;null&#9;null" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -307,12 +325,17 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,VISIBILITY_SORTER,ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6a3c4991-acf6-4541-8706-0725596571bd" name="Default" comment="" />
+      <changelist id="65c48254-4c5e-4c54-bd40-4afb07d80687" name="changes in layouts" comment="" />
       <created>1449046169780</created>
       <option name="number" value="Default" />
       <updated>1449046169780</updated>
@@ -320,28 +343,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="464" y="124" width="896" height="766" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43982807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43779904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49462366" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50537634" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -355,17 +379,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Makes difference between public and admin area&#10;Adds different behavior for navigation and title." />
+    <option name="LAST_COMMIT_MESSAGE" value="Makes difference between public and admin area&#10;Adds different behavior for navigation and title." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/public/manage_content.php</url>
-          <line>10</line>
+          <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/public/manage_content.php</url>
-          <line>18</line>
+          <line>21</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -373,21 +401,53 @@
           <line>19</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/edit_page.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/edit_page.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+          <folding>
+            <element signature="e#186#368#0" expanded="false" />
+            <element signature="e#449#556#0" expanded="false" />
+            <element signature="e#568#600#0" expanded="false" />
+            <element signature="e#607#694#0" expanded="false" />
+            <element signature="e#703#830#0" expanded="false" />
+            <element signature="e#983#1029#0" expanded="false" />
+            <element signature="e#1262#1365#0" expanded="false" />
+            <element signature="e#1375#1415#0" expanded="false" />
+            <element signature="e#1425#1448#0" expanded="false" />
+            <element signature="e#1462#1568#0" expanded="false" />
+            <element signature="e#1669#1742#0" expanded="false" />
+            <element signature="e#1758#1819#0" expanded="false" />
+            <element signature="e#1828#1911#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/new_subject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
           <folding>
-            <marker date="1449824789660" expanded="true" signature="495:552" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="603:638" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="735:770" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="1100:1137" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="531:588" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="639:674" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="771:806" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="1141:1178" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -407,7 +467,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1449828561655" expanded="true" signature="904:920" placeholder="UPDATE pages..." />
+            <element signature="e#331#1532#0#PHP" expanded="false" />
+            <marker date="1450342996457" expanded="true" signature="904:920" placeholder="UPDATE pages..." />
           </folding>
         </state>
       </provider>
@@ -417,7 +478,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <marker date="1449831813443" expanded="true" signature="609:626" placeholder="DELETE FROM ..." />
+            <marker date="1450343099752" expanded="true" signature="616:633" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -427,7 +488,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
           <folding>
-            <marker date="1449836323276" expanded="true" signature="986:1005" placeholder="INSERT INTO pages..." />
+            <marker date="1450341257538" expanded="true" signature="1022:1041" placeholder="INSERT INTO pages..." />
           </folding>
         </state>
       </provider>
@@ -448,12 +509,9 @@
             <element signature="n#redirect_to#0;n#!!top" expanded="false" />
             <element signature="n#confirm_query#0;n#!!top" expanded="false" />
             <element signature="n#mysql_prep#0;n#!!top" expanded="false" />
-            <element signature="n#find_all_subjects#0;n#!!top" expanded="false" />
             <element signature="n#find_subject_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_page_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
-            <element signature="n#navigation#0;n#!!top" expanded="false" />
-            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -493,10 +551,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
           <folding>
-            <marker date="1449824789660" expanded="true" signature="495:552" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="603:638" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="735:770" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="1100:1137" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="531:588" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="639:674" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="771:806" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="1141:1178" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -513,7 +571,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1449582039546" expanded="true" signature="621:631" placeholder="UPDATE subje..." />
+            <element signature="e#233#302#0#PHP" expanded="false" />
+            <marker date="1450343046232" expanded="true" signature="628:638" placeholder="UPDATE subje..." />
           </folding>
         </state>
       </provider>
@@ -546,12 +605,9 @@
             <element signature="n#redirect_to#0;n#!!top" expanded="false" />
             <element signature="n#confirm_query#0;n#!!top" expanded="false" />
             <element signature="n#mysql_prep#0;n#!!top" expanded="false" />
-            <element signature="n#find_all_subjects#0;n#!!top" expanded="false" />
             <element signature="n#find_subject_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_page_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
-            <element signature="n#navigation#0;n#!!top" expanded="false" />
-            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -601,12 +657,9 @@
             <element signature="n#redirect_to#0;n#!!top" expanded="false" />
             <element signature="n#confirm_query#0;n#!!top" expanded="false" />
             <element signature="n#mysql_prep#0;n#!!top" expanded="false" />
-            <element signature="n#find_all_subjects#0;n#!!top" expanded="false" />
             <element signature="n#find_subject_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_page_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
-            <element signature="n#navigation#0;n#!!top" expanded="false" />
-            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -655,12 +708,9 @@
             <element signature="n#redirect_to#0;n#!!top" expanded="false" />
             <element signature="n#confirm_query#0;n#!!top" expanded="false" />
             <element signature="n#mysql_prep#0;n#!!top" expanded="false" />
-            <element signature="n#find_all_subjects#0;n#!!top" expanded="false" />
             <element signature="n#find_subject_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_page_by_id#0;n#!!top" expanded="false" />
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
-            <element signature="n#navigation#0;n#!!top" expanded="false" />
-            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -738,34 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5598756">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2799378">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03141361">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db/db_connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5026178">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.666667">
@@ -795,62 +817,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/edit_subject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.62963">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/validation_functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.518518">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="n#has_inclusion_in#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/delete_subject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <marker date="1449582039546" expanded="true" signature="621:631" placeholder="UPDATE subje..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/delete_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1449831813443" expanded="true" signature="609:626" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/new_subject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
-          <folding>
-            <marker date="1449824789660" expanded="true" signature="495:552" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="603:638" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="735:770" placeholder="..." />
-            <marker date="1449824789660" expanded="true" signature="1100:1137" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/create_subject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <marker date="1449570973025" expanded="true" signature="785:807" placeholder="INSERT INTO subjects..." />
           </folding>
         </state>
       </provider>
@@ -877,48 +849,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/new_page.php">
+    <entry file="file://$PROJECT_DIR$/includes/db/db_connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.4974093">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9285715">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.64285713">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/new_subject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39818183">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding>
-            <marker date="1449836323276" expanded="true" signature="986:1005" placeholder="INSERT INTO pages..." />
+            <marker date="1450342850047" expanded="true" signature="531:588" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="639:674" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="771:806" placeholder="..." />
+            <marker date="1450342850047" expanded="true" signature="1141:1178" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+    <entry file="file://$PROJECT_DIR$/public/edit_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.26727274">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
           <folding>
-            <element signature="n#redirect_to#0;n#!!top" expanded="false" />
-            <element signature="n#confirm_query#0;n#!!top" expanded="false" />
-            <element signature="n#mysql_prep#0;n#!!top" expanded="false" />
-            <element signature="n#find_all_subjects#0;n#!!top" expanded="false" />
-            <element signature="n#find_subject_by_id#0;n#!!top" expanded="false" />
-            <element signature="n#find_page_by_id#0;n#!!top" expanded="false" />
-            <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
-            <element signature="n#navigation#0;n#!!top" expanded="false" />
-            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+            <element signature="e#331#1532#0#PHP" expanded="false" />
+            <marker date="1450342996457" expanded="true" signature="904:920" placeholder="UPDATE pages..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/delete_subject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="e#233#302#0#PHP" expanded="false" />
+            <marker date="1450343046232" expanded="true" signature="628:638" placeholder="UPDATE subje..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/create_subject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33272728">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <marker date="1449570973025" expanded="true" signature="785:807" placeholder="INSERT INTO subjects..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/manage_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state vertical-scroll-proportion="-3.6607144">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/edit_page.php">
+    <entry file="file://$PROJECT_DIR$/includes/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6441442">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.53513515">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/delete_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53513515">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
-            <marker date="1449828561655" expanded="true" signature="904:920" placeholder="UPDATE pages..." />
+            <marker date="1450343099752" expanded="true" signature="616:633" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.267857">
+          <caret line="198" column="36" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="36" />
+          <folding>
+            <element signature="n#redirect_to#0;n#!!top" expanded="false" />
+            <element signature="n#confirm_query#0;n#!!top" expanded="false" />
+            <element signature="n#mysql_prep#0;n#!!top" expanded="false" />
+            <element signature="n#find_subject_by_id#0;n#!!top" expanded="false" />
+            <element signature="n#find_page_by_id#0;n#!!top" expanded="false" />
+            <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/edit_subject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5555553">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <marker date="1450342996465" expanded="true" signature="849:868" placeholder="UPDATE subje..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/new_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35579515">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <marker date="1450341257538" expanded="true" signature="1022:1041" placeholder="INSERT INTO pages..." />
           </folding>
         </state>
       </provider>
