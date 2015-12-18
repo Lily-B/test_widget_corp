@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Widget Corp <?php if($layout_context == "admin"){echo "Admin";} ?></title>
-    <link href="../../public/stylesheets/public.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="stylesheets/public.css" media="all" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="header">
