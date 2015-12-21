@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3c4991-acf6-4541-8706-0725596571bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/delete_admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/edit_admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/manage_admins.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/new_admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/functions.php" afterPath="$PROJECT_DIR$/includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/layouts/header.php" afterPath="$PROJECT_DIR$/includes/layouts/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/delete_page.php" afterPath="$PROJECT_DIR$/public/delete_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/delete_subject.php" afterPath="$PROJECT_DIR$/public/delete_subject.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/admin.php" afterPath="$PROJECT_DIR$/public/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/public.css" afterPath="$PROJECT_DIR$/public/stylesheets/public.css" />
     </list>
     <list id="65c48254-4c5e-4c54-bd40-4afb07d80687" name="changes in layouts" comment="" />
     <ignored path="test_widget_corp.iws" />
@@ -37,42 +39,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manage_content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/manage_content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.666667">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
+      <file leaf-file-name="manage_admins.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/manage_admins.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7180851">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/layouts/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding />
+            <state vertical-scroll-proportion="1.125">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding>
+                <element signature="e#555#1314#0#PHP" expanded="false" />
+                <element signature="e#739#1270#0#PHP" expanded="false" />
+                <marker date="1450711590997" expanded="true" signature="662:719" placeholder="..." />
+                <marker date="1450711590997" expanded="false" signature="807:1209" placeholder="..." />
+                <marker date="1450711590997" expanded="false" signature="883:1209" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +68,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.074074075">
-              <caret line="97" column="53" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
+            <state vertical-scroll-proportion="-2.148148">
+              <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
               <folding>
                 <element signature="n#redirect_to#0;n#!!top" expanded="false" />
                 <element signature="n#confirm_query#0;n#!!top" expanded="false" />
@@ -94,31 +82,58 @@
                 <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
                 <element signature="n#navigation#0;n#!!top" expanded="false" />
                 <element signature="n#public_navigation#0;n#!!top" expanded="false" />
-                <marker date="1450427491249" expanded="true" signature="6564:6595" placeholder="..." />
+                <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+                <element signature="e#6493#6807#0#PHP" expanded="false" />
+                <element signature="n#form_errors#0;n#!!top" expanded="false" />
+                <element signature="n#find_all_admins#0;n#!!top" expanded="false" />
+                <element signature="n#find_selected_admin#0;n#!!top" expanded="false" />
+                <element signature="n#find_admin_by_id#0;n#!!top" expanded="false" />
+                <element signature="n#all_admins_table#0;n#!!top" expanded="false" />
+                <element signature="n#create_new_admin_table#0;n#!!top" expanded="false" />
+                <element signature="n#table_is_empty#0;n#!!top" expanded="false" />
+                <marker date="1450709870161" expanded="true" signature="6564:6595" placeholder="..." />
+                <marker date="1450709870161" expanded="true" signature="9281:9315" placeholder="CREATE TABLE..${$table_name}..." />
+                <marker date="1450709870161" expanded="true" signature="9769:9783" placeholder="SELECT * FRO..${$table_name}..." />
+                <marker date="1450709870161" expanded="true" signature="9784:9798" placeholder="CREATE TABLE..${$table_name}..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_subject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/edit_subject.php">
+      <file leaf-file-name="edit_admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/edit_admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state vertical-scroll-proportion="-3.3333333">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
               <folding>
-                <marker date="1450342996465" expanded="true" signature="849:868" placeholder="UPDATE subje..." />
+                <element signature="e#332#1401#0#PHP" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <marker date="1450707900238" expanded="true" signature="849:866" placeholder="UPDATE subje..." />
+                <marker date="1450707900238" expanded="true" signature="2137:2175" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/new_page.php">
+      <file leaf-file-name="delete_subject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/delete_subject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state vertical-scroll-proportion="-3.4814816">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <marker date="1450341257538" expanded="true" signature="1022:1041" placeholder="INSERT INTO pages..." />
+                <marker date="1450425846116" expanded="true" signature="635:645" placeholder="UPDATE subje..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/delete_admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.333333">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <marker date="1450709053049" expanded="true" signature="315:333" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -144,8 +159,6 @@
         <option value="$PROJECT_DIR$/includes/session.php" />
         <option value="$PROJECT_DIR$/includes/validation_functions.php" />
         <option value="$PROJECT_DIR$/includes/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/public/stylesheets/public.css" />
-        <option value="$PROJECT_DIR$/public/admin.php" />
         <option value="$PROJECT_DIR$/public/new_page.php" />
         <option value="$PROJECT_DIR$/public/manage_content.php" />
         <option value="$PROJECT_DIR$/public/new_subject.php" />
@@ -154,8 +167,14 @@
         <option value="$PROJECT_DIR$/includes/layouts/header.php" />
         <option value="$PROJECT_DIR$/public/delete_page.php" />
         <option value="$PROJECT_DIR$/public/delete_subject.php" />
-        <option value="$PROJECT_DIR$/includes/functions.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/admin.php" />
+        <option value="$PROJECT_DIR$/public/new_admin.php" />
+        <option value="$PROJECT_DIR$/public/stylesheets/public.css" />
+        <option value="$PROJECT_DIR$/public/edit_admin.php" />
+        <option value="$PROJECT_DIR$/public/delete_admin.php" />
+        <option value="$PROJECT_DIR$/includes/functions.php" />
+        <option value="$PROJECT_DIR$/public/manage_admins.php" />
       </list>
     </option>
   </component>
@@ -169,10 +188,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="533" />
+    <option name="y" value="76" />
+    <option name="width" value="896" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -272,6 +291,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_widget_corp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_widget_corp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -306,11 +343,11 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\test_widget_corp\includes\layouts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\test_widget_corp\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\test_widget_corp\includes\layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -365,20 +402,25 @@
       <option name="project" value="LOCAL" />
       <updated>1450345018474</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Prevents viewing invisible by GET request&#10;For public area checks if page or subject&#10; (in GET request) is visible before showing&#10;  content in public area. If it is not the default&#10;  page is shown.">
+      <created>1450428752842</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1450428752842</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="533" y="76" width="896" height="766" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43779904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43767908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3844086" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38328075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49462366" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50537634" order="2" side_tool="true" content_ui="tabs" />
@@ -388,9 +430,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -408,7 +451,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Makes difference between public and admin area&#10;Adds different behavior for navigation and title." />
-    <option name="LAST_COMMIT_MESSAGE" value="Makes difference between public and admin area&#10;Adds different behavior for navigation and title." />
+    <MESSAGE value="Prevents viewing invisible by GET request&#10;For public area checks if page or subject&#10; (in GET request) is visible before showing&#10;  content in public area. If it is not the default&#10;  page is shown." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prevents viewing invisible by GET request&#10;For public area checks if page or subject&#10; (in GET request) is visible before showing&#10;  content in public area. If it is not the default&#10;  page is shown." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,65 +482,22 @@
           <line>23</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/functions.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/manage_admins.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-          <folding>
-            <element signature="e#186#368#0" expanded="false" />
-            <element signature="e#449#556#0" expanded="false" />
-            <element signature="e#568#600#0" expanded="false" />
-            <element signature="e#607#694#0" expanded="false" />
-            <element signature="e#703#830#0" expanded="false" />
-            <element signature="e#983#1029#0" expanded="false" />
-            <element signature="e#1262#1365#0" expanded="false" />
-            <element signature="e#1375#1415#0" expanded="false" />
-            <element signature="e#1425#1448#0" expanded="false" />
-            <element signature="e#1462#1568#0" expanded="false" />
-            <element signature="e#1669#1742#0" expanded="false" />
-            <element signature="e#1758#1819#0" expanded="false" />
-            <element signature="e#1828#1911#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/new_subject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
-          <folding>
-            <marker date="1450342850047" expanded="true" signature="531:588" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="639:674" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="771:806" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="1141:1178" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/create_subject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/edit_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#331#1532#0#PHP" expanded="false" />
-            <marker date="1450342996457" expanded="true" signature="904:920" placeholder="UPDATE pages..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/delete_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -512,6 +513,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
           <folding>
+            <element signature="e#350#1598#0#PHP" expanded="false" />
             <marker date="1450341257538" expanded="true" signature="1022:1041" placeholder="INSERT INTO pages..." />
           </folding>
         </state>
@@ -541,7 +543,19 @@
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
             <element signature="n#navigation#0;n#!!top" expanded="false" />
             <element signature="n#public_navigation#0;n#!!top" expanded="false" />
-            <marker date="1450427491249" expanded="true" signature="6564:6595" placeholder="..." />
+            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+            <element signature="e#6493#6807#0#PHP" expanded="false" />
+            <element signature="n#form_errors#0;n#!!top" expanded="false" />
+            <element signature="n#find_all_admins#0;n#!!top" expanded="false" />
+            <element signature="n#find_selected_admin#0;n#!!top" expanded="false" />
+            <element signature="n#find_admin_by_id#0;n#!!top" expanded="false" />
+            <element signature="n#all_admins_table#0;n#!!top" expanded="false" />
+            <element signature="n#create_new_admin_table#0;n#!!top" expanded="false" />
+            <element signature="n#table_is_empty#0;n#!!top" expanded="false" />
+            <marker date="1450709870161" expanded="true" signature="6564:6595" placeholder="..." />
+            <marker date="1450709870161" expanded="true" signature="9281:9315" placeholder="CREATE TABLE..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9769:9783" placeholder="SELECT * FRO..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9784:9798" placeholder="CREATE TABLE..${$table_name}..." />
           </folding>
         </state>
       </provider>
@@ -580,12 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
-          <folding>
-            <marker date="1450342850047" expanded="true" signature="531:588" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="639:674" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="771:806" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="1141:1178" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,7 +609,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#240#309#0#PHP" expanded="false" />
             <marker date="1450425846116" expanded="true" signature="635:645" placeholder="UPDATE subje..." />
           </folding>
         </state>
@@ -640,7 +647,19 @@
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
             <element signature="n#navigation#0;n#!!top" expanded="false" />
             <element signature="n#public_navigation#0;n#!!top" expanded="false" />
-            <marker date="1450427491249" expanded="true" signature="6564:6595" placeholder="..." />
+            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+            <element signature="e#6493#6807#0#PHP" expanded="false" />
+            <element signature="n#form_errors#0;n#!!top" expanded="false" />
+            <element signature="n#find_all_admins#0;n#!!top" expanded="false" />
+            <element signature="n#find_selected_admin#0;n#!!top" expanded="false" />
+            <element signature="n#find_admin_by_id#0;n#!!top" expanded="false" />
+            <element signature="n#all_admins_table#0;n#!!top" expanded="false" />
+            <element signature="n#create_new_admin_table#0;n#!!top" expanded="false" />
+            <element signature="n#table_is_empty#0;n#!!top" expanded="false" />
+            <marker date="1450709870161" expanded="true" signature="6564:6595" placeholder="..." />
+            <marker date="1450709870161" expanded="true" signature="9281:9315" placeholder="CREATE TABLE..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9769:9783" placeholder="SELECT * FRO..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9784:9798" placeholder="CREATE TABLE..${$table_name}..." />
           </folding>
         </state>
       </provider>
@@ -698,7 +717,19 @@
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
             <element signature="n#navigation#0;n#!!top" expanded="false" />
             <element signature="n#public_navigation#0;n#!!top" expanded="false" />
-            <marker date="1450427491249" expanded="true" signature="6564:6595" placeholder="..." />
+            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+            <element signature="e#6493#6807#0#PHP" expanded="false" />
+            <element signature="n#form_errors#0;n#!!top" expanded="false" />
+            <element signature="n#find_all_admins#0;n#!!top" expanded="false" />
+            <element signature="n#find_selected_admin#0;n#!!top" expanded="false" />
+            <element signature="n#find_admin_by_id#0;n#!!top" expanded="false" />
+            <element signature="n#all_admins_table#0;n#!!top" expanded="false" />
+            <element signature="n#create_new_admin_table#0;n#!!top" expanded="false" />
+            <element signature="n#table_is_empty#0;n#!!top" expanded="false" />
+            <marker date="1450709870161" expanded="true" signature="6564:6595" placeholder="..." />
+            <marker date="1450709870161" expanded="true" signature="9281:9315" placeholder="CREATE TABLE..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9769:9783" placeholder="SELECT * FRO..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9784:9798" placeholder="CREATE TABLE..${$table_name}..." />
           </folding>
         </state>
       </provider>
@@ -755,7 +786,19 @@
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
             <element signature="n#navigation#0;n#!!top" expanded="false" />
             <element signature="n#public_navigation#0;n#!!top" expanded="false" />
-            <marker date="1450427491249" expanded="true" signature="6564:6595" placeholder="..." />
+            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+            <element signature="e#6493#6807#0#PHP" expanded="false" />
+            <element signature="n#form_errors#0;n#!!top" expanded="false" />
+            <element signature="n#find_all_admins#0;n#!!top" expanded="false" />
+            <element signature="n#find_selected_admin#0;n#!!top" expanded="false" />
+            <element signature="n#find_admin_by_id#0;n#!!top" expanded="false" />
+            <element signature="n#all_admins_table#0;n#!!top" expanded="false" />
+            <element signature="n#create_new_admin_table#0;n#!!top" expanded="false" />
+            <element signature="n#table_is_empty#0;n#!!top" expanded="false" />
+            <marker date="1450709870161" expanded="true" signature="6564:6595" placeholder="..." />
+            <marker date="1450709870161" expanded="true" signature="9281:9315" placeholder="CREATE TABLE..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9769:9783" placeholder="SELECT * FRO..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9784:9798" placeholder="CREATE TABLE..${$table_name}..." />
           </folding>
         </state>
       </provider>
@@ -862,36 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/validation_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.518518">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="n#has_inclusion_in#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db/db_connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4974093">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/new_subject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39818183">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <marker date="1450342850047" expanded="true" signature="531:588" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="639:674" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="771:806" placeholder="..." />
-            <marker date="1450342850047" expanded="true" signature="1141:1178" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/edit_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26727274">
@@ -910,20 +923,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/edit_subject.php">
+    <entry file="file://$PROJECT_DIR$/public/delete_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.16363636">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
           <folding>
-            <marker date="1450342996465" expanded="true" signature="849:868" placeholder="UPDATE subje..." />
+            <marker date="1450425595728" expanded="true" signature="623:640" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/new_subject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.426799">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/db/db_connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4974093">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/new_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27979276">
+          <caret line="47" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#350#1598#0#PHP" expanded="false" />
+            <marker date="1450341257538" expanded="true" signature="1022:1041" placeholder="INSERT INTO pages..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/public.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4300518">
-          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.87564766">
+          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
           <folding>
             <element signature="e#186#368#0" expanded="false" />
             <element signature="e#449#556#0" expanded="false" />
@@ -942,65 +994,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/new_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <marker date="1450341257538" expanded="true" signature="1022:1041" placeholder="INSERT INTO pages..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manage_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/delete_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16363636">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <marker date="1450425595728" expanded="true" signature="623:640" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/delete_subject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33962265">
+        <state vertical-scroll-proportion="-3.4814816">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#240#309#0#PHP" expanded="false" />
             <marker date="1450425846116" expanded="true" signature="635:645" placeholder="UPDATE subje..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/layouts/header.php">
+    <entry file="file://$PROJECT_DIR$/public/delete_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state vertical-scroll-proportion="-15.333333">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1450709053049" expanded="true" signature="315:333" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/validation_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5267703">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="n#fieldname_as_text#0;n#!!top" expanded="false" />
+            <element signature="n#has_presence#0;n#!!top" expanded="false" />
+            <element signature="n#has_max_length#0;n#!!top" expanded="false" />
+            <element signature="n#validate_max_legth#0;n#!!top" expanded="false" />
+            <element signature="n#has_inclusion_in#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/new_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83937824">
+          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+          <folding>
+            <element signature="e#320#1355#0#PHP" expanded="false" />
+            <marker date="1450693186293" expanded="true" signature="855:875" placeholder="INSERT INTO admins..." />
+            <marker date="1450693186293" expanded="true" signature="1411:2046" placeholder="..." />
+            <marker date="1450693186293" expanded="true" signature="1437:1463" placeholder="..." />
+            <marker date="1450693186293" expanded="true" signature="1483:2039" placeholder="..." />
+            <marker date="1450693186293" expanded="true" signature="1653:1965" placeholder="..." />
+            <marker date="1450693186293" expanded="true" signature="1669:1778" placeholder="..." />
+            <marker date="1450693186293" expanded="true" signature="1794:1878" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manage_content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.074074075">
-          <caret line="97" column="53" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
+        <state vertical-scroll-proportion="-2.148148">
+          <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
           <folding>
             <element signature="n#redirect_to#0;n#!!top" expanded="false" />
             <element signature="n#confirm_query#0;n#!!top" expanded="false" />
@@ -1013,16 +1077,59 @@
             <element signature="n#find_selected_page#0;n#!!top" expanded="false" />
             <element signature="n#navigation#0;n#!!top" expanded="false" />
             <element signature="n#public_navigation#0;n#!!top" expanded="false" />
-            <marker date="1450427491249" expanded="true" signature="6564:6595" placeholder="..." />
+            <element signature="n#page_list_for_subject#0;n#!!top" expanded="false" />
+            <element signature="e#6493#6807#0#PHP" expanded="false" />
+            <element signature="n#form_errors#0;n#!!top" expanded="false" />
+            <element signature="n#find_all_admins#0;n#!!top" expanded="false" />
+            <element signature="n#find_selected_admin#0;n#!!top" expanded="false" />
+            <element signature="n#find_admin_by_id#0;n#!!top" expanded="false" />
+            <element signature="n#all_admins_table#0;n#!!top" expanded="false" />
+            <element signature="n#create_new_admin_table#0;n#!!top" expanded="false" />
+            <element signature="n#table_is_empty#0;n#!!top" expanded="false" />
+            <marker date="1450709870161" expanded="true" signature="6564:6595" placeholder="..." />
+            <marker date="1450709870161" expanded="true" signature="9281:9315" placeholder="CREATE TABLE..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9769:9783" placeholder="SELECT * FRO..${$table_name}..." />
+            <marker date="1450709870161" expanded="true" signature="9784:9798" placeholder="CREATE TABLE..${$table_name}..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/public/edit_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7180851">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#332#1401#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <marker date="1450707900238" expanded="true" signature="849:866" placeholder="UPDATE subje..." />
+            <marker date="1450707900238" expanded="true" signature="2137:2175" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/edit_subject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1220238">
+          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="51" />
+          <folding>
+            <element signature="e#334#1439#0#PHP" expanded="false" />
+            <element signature="n#form#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <marker date="1450342996465" expanded="true" signature="849:868" placeholder="UPDATE subje..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manage_admins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.125">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="e#555#1314#0#PHP" expanded="false" />
+            <element signature="e#739#1270#0#PHP" expanded="false" />
+            <marker date="1450711590997" expanded="true" signature="662:719" placeholder="..." />
+            <marker date="1450711590997" expanded="false" signature="807:1209" placeholder="..." />
+            <marker date="1450711590997" expanded="false" signature="883:1209" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

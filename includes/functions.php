@@ -254,5 +254,115 @@ function form_errors($errors = array()){
     return($output);
 }
 
+function find_all_admins() {
+    global $connection;
+
+    $query = "SELECT * ";
+    $query .= "FROM admins ";
+    $query .= "ORDER BY username ASC";
+    $admins_set = mysqli_query($connection, $query);
+    confirm_query($admins_set, false);
+    return $admins_set;
+}
+
+function find_selected_admin(){
+    global $current_admin;
+
+    if (isset($_GET["admin"])){
+        $current_admin = find_admin_by_id($_GET["admin"]);
+
+    }  else {
+        $current_admin = null;
+    }
+}
+
+function find_admin_by_id($admin_id){
+    global $connection;
+
+    $safe_admin_id = mysqli_real_escape_string($connection, $admin_id);
+
+    $query = "SELECT * ";
+    $query .= "FROM admins ";
+    $query .= "WHERE id = {$safe_admin_id} ";
+    $query .= "LIMIT 1";
+    $admin_set = mysqli_query($connection, $query);
+    confirm_query($admin_set, false);
+    if ($admin = mysqli_fetch_assoc($admin_set)){
+        return $admin;
+    }else {
+        return null;
+    }
+
+}
+
+function all_admins_table(){
+    global $connection;
+    $table_name = "admins";
+
+    $output ="";
+    if(!table_exists_in_db($table_name)){
+        $output .= create_new_admin_table($table_name);
+    }
+    if (!table_is_empty($table_name)){
+        $admins_set=find_all_admins();
+        $output .= '<table id="admin" > <tr><th>Username</th> <th>Actions</th></tr>';
+        while ($admin = mysqli_fetch_assoc($admins_set)){
+            $output .= '<tr><td>' . htmlentities($admin["username"]) . '</td> <td>';
+            $output .= '<a href="edit_admin.php?admin=';
+            $output .= urlencode($admin["id"]);
+            $output .=' ">Edit</a> ,';
+            $output .= '<a href="delete_admin.php?admin=';
+            $output .=urlencode($admin["id"]);
+            $output .='" onclick="return confirm(\'Are you sure?\')";>Delete</a>';
+            $output .= '</td></tr>';
+        }
+        $output .= '</table>';
+    }
+    return $output;
+}
+
+function create_new_admin_table($table_name){
+    global $connection;
+    $query = "CREATE TABLE " . $table_name . " (";
+    $query .= "id INT(11) NOT NULL AUTO_INCREMENT, ";
+    $query .= "username VARCHAR(50) NOT NULL, ";
+    $query .= "hashed_password VARCHAR(60) NOT NULL, ";
+    $query .= "PRIMARY KEY (id) )";
+    $result = mysqli_query($connection, $query);
+    if ($result) {
+        return "Table " . $table_name . " created";
+    }else{
+        return "Table creation failed";
+    }
+}
+
+function table_is_empty($table_name){
+    global $connection;
+    $query = "SELECT * FROM " . $table_name;
+    $result = mysqli_query($connection, $query);
+    $number_of_rows = mysqli_num_rows($result);
+    if ($number_of_rows>0) {
+        return false;
+    }else{
+        return true;
+    }
+
+}
+
+function table_exists_in_db ($table_name){
+    global $connection;
+
+    $query = "SHOW TABLES";
+    $table_list = mysqli_query($connection, $query);
+    while ($table_in_db = mysqli_fetch_row($table_list)) {
+        if ($table_name==$table_in_db[0]) {
+            return true;
+        }
+    }
+    return false;
+}
+
+
+
 
 

@@ -12,7 +12,7 @@
 		<p>Welcome to the admin area.</p>
 		<ul>
 			<li><a href="manage_content.php">Manage Website content</a></li>
-			<li><a href="admin.php">Manage Admins</a></li>
+			<li><a href="manage_admins.php">Manage Admins</a></li>
 			<li><a href="logout.php">Logout</a></li>
 		</ul>
 	</div>

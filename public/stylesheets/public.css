@@ -95,3 +95,8 @@ ul.page-list{
     color: #8D0D19; border: 2px solid #8D0D19;
     margin: 1em 0; padding: 1em;
 }
+
+td, th {
+    width: 200px;
+    text-align: left;
+}
