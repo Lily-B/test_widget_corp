@@ -34,6 +34,10 @@
         }
         ?>
         <a href="new_admin.php">+ Add New Admin</a>
+
+        <hr />
+
+
     </div>
 </div>
 

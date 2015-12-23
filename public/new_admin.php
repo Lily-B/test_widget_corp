@@ -11,8 +11,7 @@ if(isset($_POST['submit'])){
     //Process the form
 
     $user_name = mysql_prep($_POST['username']);
-    $password = $_POST['password'];
-    $hashed_password = md5(md5($password));
+    $hashed_password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost'=>10] );
 
     // validations
     $required_fields = array("username", "password");

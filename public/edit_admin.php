@@ -21,8 +21,9 @@ if(isset($_POST['submit'])) {
         //Perform Update
         $id = $current_admin["id"];
         $username = mysql_prep($_POST['username']);
-        $password = $_POST['password'];
-        $hashed_password = md5(md5($password));
+        //$hashed_password = password_encrypt($_POST['password']); For php version  < 5.5
+        $hashed_password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost'=>10] );
+
 
 
         $query = "UPDATE admins SET ";
