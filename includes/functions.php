@@ -292,6 +292,24 @@ function find_admin_by_id($admin_id){
     }else {
         return null;
     }
+}
+
+function find_admin_by_username($username){
+    global $connection;
+
+    $safe_username = mysqli_real_escape_string($connection, $username);
+
+    $query = "SELECT * ";
+    $query .= "FROM admins ";
+    $query .= "WHERE username = '{$safe_username}' ";
+    $query .= "LIMIT 1";
+    $admin_set = mysqli_query($connection, $query);
+    confirm_query($admin_set, false);
+    if ($admin = mysqli_fetch_assoc($admin_set)){
+        return $admin;
+    }else {
+        return null;
+    }
 
 }
 
@@ -378,7 +396,30 @@ function best_cost_for_hashig_passwords_on_server(){
 
 }
 
-/*function password_encrypt($password){
+function attempt_login($user_name, $password){
+    $admin = find_admin_by_username($user_name);
+    if($admin && password_verify($password, $admin['hashed_password'])){
+        //Found admin, checked password
+        return $admin;
+    } else{
+        //Admin not found
+        return false;
+    }
+
+}
+
+function logged_in(){
+   return isset($_SESSION['admin_id']);
+}
+
+function confirm_logged_in(){
+    if (!logged_in()) {
+        redirect_to("login.php");
+    }
+}
+
+/*
+ function password_encrypt($password){
 
         $hash_format = "$2y$10$"; //tells PHP to use Blowfish with a "cost" of 10
         $salt_length = 22;        //Blowfish salt should be 22 characters or more
@@ -403,17 +444,17 @@ function generate_salt($length){
     $salt = substr($modified_base64_string, 0, $length);
 
     return $salt;
-}*/
+}
 
-/*function password_check($password, $existing_hash){
+function password_check($password, $existing_hash){
     $hash = crypt ($password, $existing_hash);
     if ($hash === $existing_hash){
         return true;
     }else{
         return false;
     }
-}*/
-
+}
+*/
 
 
 
