@@ -7,7 +7,7 @@
 
 <div id="main" xmlns="http://www.w3.org/1999/html">
     <div id="navigation">
-        &nbsp;
+        <br /><a href="admin.php">&laquo; Main Menu</a><br />
     </div>
     <div id="page">
         <?php echo session_message(); ?>
