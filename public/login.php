@@ -41,8 +41,6 @@ if(isset($_POST['submit'])){
 
 //Test if there was query error
 
-
-
 } ?>
 
 
@@ -54,7 +52,6 @@ if(isset($_POST['submit'])){
 
         <?php echo session_message();
         echo form_errors(errors_message()); ?>
-
         <h2>Login</h2>
 
         <form action="login.php" method="post">

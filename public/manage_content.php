@@ -38,7 +38,7 @@
             <br />Content:<br><div class="view-content"><?php echo htmlentities($current_page["content"]); ?></div><br />
             <a href="edit_page.php?page=<?php echo urlencode($current_page["id"]); ?>">Edit Page</a>
         <?php } else{ ?>
-           <h1>Manage Content </h1>
+           <h2>Manage Content </h2>
         <?php }  ?>
 
 	</div>

@@ -16,6 +16,7 @@
 		<ul>
 			<li><a href="manage_content.php">Manage Website content</a></li>
 			<li><a href="manage_admins.php">Manage Admins</a></li>
+			<br /> <br />
 			<li><a href="logout.php">Logout</a></li>
 		</ul>
 	</div>

@@ -1,0 +1,147 @@
+html { height: 100%; width: 100%; }
+
+body{
+    width: 100%; height: 100%;
+    background-color: #5698B9;
+    font-family: "Lucida Sans Unicode",  sans-serif;
+    font-size: 16px; font-stretch: expanded;
+    line-height: 150%;
+}
+
+#header{
+    height: 120px;
+    margin: 0;padding: 0;
+    background-color: #1A446C;
+    color: #DFF0F1;
+}
+
+#header h1{
+    padding-top: 1em;
+    font-size: 45px;
+    text-align: center;
+}
+
+#main {
+    height: 600px; width: 100%;
+    margin: 0; padding: 0;
+}
+
+#navigation {
+    float: left;
+    width: 200px; height: 100%;
+    margin: 0 0 1em 0; padding: 0 2em;
+}
+#navigation a {
+    color: #D4E6F4;
+    background-color: rgba(26, 68, 108, 0.7);
+    text-decoration: none;
+    display: inline-block;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 0;
+    padding: 5px 7px 0 7px;
+}
+#navigation a:hover{
+    background-color: #1A446C;
+}
+#navigation ul.subjects{
+    margin: 1em 0;
+    padding-left: 0;
+    list-style: none;
+}
+#navigation ul.pages {
+    padding-right: 0;
+    padding-left: 2em;
+    list-style: square;
+    font-weight: normal;
+    width: 82%;
+}
+
+/*#navigation ul.pages a{
+    padding-left: 2em;
+    list-style: square;
+    font-weight: normal;
+}*/
+#navigation ul.pages li.selected a,
+#navigation ul.subjects>li.selected>a {
+    font-weight: bold;
+    background-color: #1A446C;
+}
+
+#page{
+    float: left; height: 100%;
+    padding-left: 2em; vertical-align: top;
+}
+#page h2 {
+    margin: 1em 0;
+    font-size: 30px;
+    text-align: left;
+    color: #EAE4D0;
+}
+
+#page h2+p {
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+#page h3 {
+     font-size: 25px;
+ }
+
+#page a {
+    line-height: 150%;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px 7px 0 7px;
+    background-color: rgba(26, 68, 108, 0.7);
+    color: #ffffff;
+}
+#page a:hover {
+
+    background-color: #ffffff;
+    color: rgb(26, 68, 108);
+}
+
+
+div.message {
+    border: 2px solid #8D0D19;
+    color: #8D0D19; font-weight: bold;
+    margin: 1em 0; padding: 1em;
+}
+
+.content{
+    text-align: left; font-family: "Courier New", Serif; font-size: 16px;
+}
+
+ul.page-list{
+    list-style: none;
+    position: relative; left: 50px;
+}
+
+.view-content {
+    margin: 1em; padding: 1em; border: 1px solid #999999;
+}
+
+.error {
+    color: #8D0D19; border: 2px solid #8D0D19;
+    margin: 1em 0; padding: 1em;
+}
+
+td, th {
+    width: 200px;
+    text-align: left;
+}
+
+#footer{
+    clear: both;
+    margin: 0; padding: 1em;
+    height: 100px;
+    text-align: center;
+    background-color: #1A446C;
+    color: #DFF0F1;
+}
+
